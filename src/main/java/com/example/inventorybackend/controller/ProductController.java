@@ -39,3 +39,5 @@ public class ProductController {
         productService.deleteProduct(id);
     }
 }
+
+//product and inventory synced

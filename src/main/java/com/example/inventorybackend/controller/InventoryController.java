@@ -33,7 +33,6 @@ public class InventoryController {
             return item;
         }
     }
-
     @PutMapping("/{id}")
     public InventoryItem updateInventoryItem(@PathVariable Long id, @RequestBody InventoryItem updatedItem) {
         return inventoryService.updateInventoryItem(id, updatedItem);
@@ -49,3 +48,5 @@ public class InventoryController {
         inventoryService.removeInventoryItem(id);
     }
 }
+
+//inventory and product synced
