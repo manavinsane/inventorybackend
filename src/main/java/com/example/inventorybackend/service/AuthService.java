@@ -42,3 +42,6 @@
 //        return true; // Placeholder implementation, actual logic may vary
 //    }
 //}
+
+//auth is removed as of now
+
