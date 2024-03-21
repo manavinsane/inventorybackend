@@ -48,7 +48,9 @@ public class OrderController {
             return new ResponseEntity<>("placed", HttpStatus.OK);
         }
         return new ResponseEntity<>("not found", HttpStatus.OK);
-//            if (optionalProduct.isPresent()) {
+
+
+        //            if (optionalProduct.isPresent()) {
 //                Product product = optionalProduct.get();
 //                int remainingQuantity = product.getQuantity() - order.getQuantity();
 //
